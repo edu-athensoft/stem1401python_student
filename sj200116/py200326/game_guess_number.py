@@ -19,7 +19,7 @@ It is allowed to adjust the difficulty level by changing the number of times
 for a in range(5):
     print(a)
 
-print("===")
+# print("===")
 
 # case 2: while loop
 counter = 5
