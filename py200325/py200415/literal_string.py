@@ -10,6 +10,7 @@ print("strings2",strings2)
 
 # case 2
 char = "C"
+char = 'C'
 print("char",char)
 
 # case 3
