@@ -12,7 +12,7 @@ def foo(x):
 
 a = 1
 
-print("x",x)
+# print("x",x)
 
 
 
