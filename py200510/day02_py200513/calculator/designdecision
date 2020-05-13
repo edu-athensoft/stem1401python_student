@@ -1,0 +1,43 @@
+Design decision:
+
+1. create 3 modules
+mainapp
+arithm
+logic
+
+
+2.1 mainapp
+title
+test for every function (x8)
+end
+
+2.2 arithm
+definition of func
+add
+    (a,b)
+    return value
+sub
+    (a,b)
+    return value
+mul
+    (a,b)
+    return value
+div
+    (a,b)
+    return value
+power
+    (a,b)
+    return value
+
+2.3 logic
+definition of func
+and
+    (a,b)
+    return value
+or
+    (a,b)
+    return value
+not
+    (a)
+    return value
+
