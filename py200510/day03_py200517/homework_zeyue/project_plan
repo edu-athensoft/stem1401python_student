@@ -1,0 +1,18 @@
+Project Requirement:
+To develop a multi-function calculator
+using multi-module techniques
+functions:
+# arithmetic operation
+1. add
+2. sub
+3. mul
+4. div
+5. power
+# logic operation
+6. and
+7. or
+8. not
+mainapp
+title
+test for every function (only once for each is ok)
+end

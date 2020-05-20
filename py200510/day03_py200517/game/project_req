@@ -1,0 +1,15 @@
+[Project] Free design for a game
+Version: 1.0
+Objectives:
+Developing a multi-package and multi-module Python application
+Basic software development life cycle  (SDLC)
+Write basic framework for a game application
+It is supposed to be executable.
+A document of Design decision is required.
+
+Hints:
+Do not write much detail logic
+Just focus on design and test
+
+Checkpoints:
+Break the loop of relationship for modules (import)
