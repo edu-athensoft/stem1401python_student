@@ -23,7 +23,18 @@ design
    logic
 """
 
-print(round(48.78))
+# print(round(48.78))
 
+import math
 
+dataset = [
+    ("Peter", 30),
+    ("Sarah", 40),
+    ("Laura", 49),
+    ("Tony", 52),
+    ("Adam", 78),
+    ("Jisus", 100)
+]
 
+a = list(map(lambda x: round(10* math.sqrt(x[1]), 2), dataset))
+print(a)
