@@ -23,6 +23,20 @@ mystatus = {
     "Jack" : 1
 }
 
+temp = list(mystatus)
+print(temp)
+
+namelist = [
+    ["peter", 0],
+    ["marie" , 1],
+    ["sarah", 0],
+    ["Jack" ,1]
+]
+
+print(namelist)
+
+outside_qc_list = list(filter(lambda x: x[1]==0, namelist))
+print(dict(outside_qc_list))
 
 
 
