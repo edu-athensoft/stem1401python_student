@@ -64,6 +64,7 @@ print(list8)
 del list8[1:3]
 print(list8)
 
+
 # del list8
 # print(list8)
 
