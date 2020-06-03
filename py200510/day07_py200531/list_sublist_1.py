@@ -25,6 +25,8 @@ org_list = [1, 2, 3, 1, 7, 8, 2, 3, 14, 7, 8, 9]
 target_list = [2, 3, 14, 7]
 
 start_pos = org_list.index(target_list[0])
-print(start_pos)
+print("start_pos",start_pos)
+for ti in target_list:
+    print(ti)
 
 
