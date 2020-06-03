@@ -1,0 +1,10 @@
+part1
+1. "", ''
+2. text type, numeric type, sequence type, mapping type, set type, boolean type, binary type
+3. if, elif, else
+4. pour on peut le re utiliser, pour faciliter notre programm
+5. import
+part2
+3. we make the combinations together.
+We compare the combinations if the combinations are repeated we pass.
+We just continue until there are more letters without using
