@@ -21,13 +21,3 @@ elif year % 4 == 0:
 elif year % 400 == 0:
     print("{} is not a leap year".format(year))
 
-
-
-# if True:
-#     pass
-#
-# if True:
-#     pass
-#
-# if True:
-#     pass
