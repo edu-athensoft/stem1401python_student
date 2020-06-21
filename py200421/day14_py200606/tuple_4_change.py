@@ -10,6 +10,7 @@ my_tuple1[3][0] = 9
 print(my_tuple1)
 
 
+# reassign
 my_tuple2 = (1,2,3)
 print(my_tuple2)
 

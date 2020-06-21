@@ -42,7 +42,7 @@ b = ([], [], [])
 
 # create a tuple by auto-packing
 my_tuple = 1,2,'a'
-print(my_tuple)
+print(my_tuple, type(my_tuple))
 
 # unpacking
 x, y, z = my_tuple

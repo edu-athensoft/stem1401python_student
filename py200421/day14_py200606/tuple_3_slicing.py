@@ -19,3 +19,5 @@ print(my_tuple1[2:-1])  # not work properly, lost the last item
 print(my_tuple1[-1])
 # print(my_tuple1[2:0]) # does not work
 
+print(my_tuple1[5:2])
+
