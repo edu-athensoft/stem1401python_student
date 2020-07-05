@@ -24,6 +24,10 @@ a8 = mylist[4]
 print(a8)
 print(mylist[4])
 
+# negative indexing
+last = mylist[-1]
+print("last item is {}".format(last))
+
 
 # access elements in a nested list
 mylist = [[11,12],[21,22],[31,32]]
