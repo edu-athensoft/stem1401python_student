@@ -23,6 +23,12 @@ num_2 = int(input(""))
 
 
 def range_motion(y):
+    """
+    10 - lower limit
+    30 - upper limit
+    :param y:
+    :return:
+    """
     if 10 < y < 30:
         print("{} is between 10 and 30".format(y))
     else:

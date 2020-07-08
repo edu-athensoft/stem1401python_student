@@ -127,3 +127,20 @@ def case_counter(string):
 print("Function 7: Case counter.", case_counter("fhadhfdHHAIHhfhdaHIH"))
 
 
+#
+def case_counter2(string):
+    """
+    using for loop, will check every character and add to a sum if it's capital or if it's lowercase
+    :param string: string that'll be checked
+    :return: tuple, first value is the number of uppercase letters, second value is the number of lowercase letters
+    """
+    upper = 0
+    lower= 0
+    for current_letter in string:
+        if current_letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
+            upper += 1
+        if current_letter in ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']:
+            lower += 1
+    return upper, lower
+
+
