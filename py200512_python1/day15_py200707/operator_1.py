@@ -35,5 +35,12 @@ result = 5 // 2
 print("x // y = {}".format(result))
 print()
 
+# exponent **
+x = 4
+y = 3
+result = x ** y
+print("x ** y = {}".format(result))
+print()
+
 
 
