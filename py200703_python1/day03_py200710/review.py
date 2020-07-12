@@ -1,0 +1,5 @@
+""""
+vocabulary
+grammatical rules
+data
+"""
