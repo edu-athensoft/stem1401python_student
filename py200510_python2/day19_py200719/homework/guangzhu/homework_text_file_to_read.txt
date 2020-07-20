@@ -1,0 +1,2 @@
+Hello,
+this is a file that i will read from another file

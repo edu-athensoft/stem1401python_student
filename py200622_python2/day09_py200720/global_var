@@ -1,0 +1,13 @@
+1. create config.py
+
+a = 0
+b = "python"
+
+
+2. create update.py to change the values of global variables
+
+a <- 10
+b <- "jupyter"
+
+
+3. create main.py to test changes in value(s)
