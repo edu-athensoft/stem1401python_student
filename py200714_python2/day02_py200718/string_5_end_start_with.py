@@ -51,7 +51,7 @@ else:
 
 
 # [Homework]
-# pick up all language easy to learn
+# pick up all languages easy to learn
 
 
 
