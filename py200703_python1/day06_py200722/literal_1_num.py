@@ -104,6 +104,9 @@ print(1.23e15)
 
 
 # 1.3 complex
+n = 1 + 3j
+print(n)
+print(n.real, n.imag)
 
 
 

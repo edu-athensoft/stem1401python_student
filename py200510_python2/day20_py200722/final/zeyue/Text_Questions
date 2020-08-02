@@ -1,14 +1,14 @@
-Question 1:
+Question 1: (4')
 A list should be used to store items that are commonly changed. Tuples should be used for important information or information that cannot be changed.
-Question 2:
+Question 2: (4')
 A set is used when only one of the same value must be stored, for example usernames. A dictionary can also be used for that cause, because it provides the useful key:value pair, while still having only one of each key.
-Question 3:
+Question 3: (1')
 The quality of the program may depend on the number of files imported, and on the number of functions or actions run. For example, looping trough a very long list may take a long time to run.
-Question 4:
+Question 4: (5')
 No, because there are very small details that might change the outcome of the operation. For example, 1.1 + 2.2 does not equal to 3.3.
-Question 5:
+Question 5: (4.5')
 Multi-module programs contain more than on script, while multi-package programs contain multiple packages of assets, and scripts.
-Question 6:
+Question 6: (3')
 Exception handling can contain a mix of 1 try, multiple excepts, an else and a finally. For example:
 try:
     print("Example")
@@ -20,12 +20,12 @@ else:
     print("Success")
 finally:
     print("End")
-Question 7:
+Question 7: (0')
 A recursive function may go one forever, therefore causing an infinite error.
-Question 8:
+Question 8: (5')
 A magic number of magic value is a value defined in the middle of the file, that may not be understood by others. This causes confusion about what it means and does. To avoid it, all magic values should be stored in a variable at the start of the code.
-Question 9:
+Question 9: (3.5')
 To produce a software, we must write a requirement file, a plan to follow, and write the software itself.
-Question 10:
+Question 10: (4')
 User-friendly applications mostly feature text to help the client understand, instead of popping out random values. It also can add images, which helps the understanding a lot.
 The script must have comments, and have all variables name purposefully and in the same location.

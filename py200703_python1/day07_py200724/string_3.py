@@ -49,6 +49,21 @@ print(str1)
 str1 = "abc1\tab  \tabcdef\ngabcdefg"
 print(str1)
 
+#
+print()
+print()
+print("abc\tabc\tabc")
+print("ab\tab\tab")
+
+print("aksjdfsjdfkaskdfjlaskdfjlasfasdfa")
+print("aksjdfsjdfkaskdf==n==jlaskdfjlasfasdfa")
+print("aksjdfsjdfkaskdf\njlaskdfjlasfasdfa")
+
+
+print("\"")
+print("\'")
+print("\\")
+
 
 
 
