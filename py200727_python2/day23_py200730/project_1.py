@@ -4,7 +4,7 @@
 
 """
 [Demo] Financial Statement
-Data for Jan. 2020		ABC Bank
+Data for Jan. 2020		ABC Bank  for company XYZ Inc.
 
 DATE		ENTITY				WITHDRAW	DEPOSIT	BALANCE
 2020-01-30	SERVICE FEE			   5.00				?
