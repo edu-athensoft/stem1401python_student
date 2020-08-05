@@ -4,7 +4,7 @@ Knowing Datatype, then knowing the operations on the data
 
 Every value in python has a datatype
 
-Numbers (int, float)
+Numbers (int, float, complex)
 
 """
 

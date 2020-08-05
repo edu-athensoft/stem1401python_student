@@ -10,6 +10,8 @@ ordered sequence
 mylist = []
 
 list1 = [1,2,3,4,5]
+print(list1, type(list1))
+
 fruits = ['apple','orange']
 fruit_list = ['apple','orange']
 
