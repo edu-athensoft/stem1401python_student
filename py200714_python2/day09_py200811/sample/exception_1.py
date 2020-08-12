@@ -33,20 +33,13 @@ handling exception or error just before python interpreter gets interfered.
 def fa():
     fb()
 
-
 def fb():
     fc()
-
 
 def fc():
     print("fc")
     raise ValueError("my error")
 
 
-# main prog
 fa()
 
-# how it works
-# When these exceptions occur, the Python interpreter stops the current
-# process and passes it to the calling process until it is handled.
-# If not handled, the program will crash.

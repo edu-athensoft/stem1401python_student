@@ -1,5 +1,5 @@
 """
-Specifying specific error
+Specifying multiple specific errors
 
 the order of exception occurring
 
@@ -10,22 +10,21 @@ for better performance
 
 # import sys
 
-random_list = ['a', 0, 2, 3, 4]
+random_list = ['a',0,2]
 
 for entry in random_list:
     try:
         print("The entry is", entry)
         r = 1/int(entry)
-        print(f"The reciprocal of {entry} is {r}")
         break
     except ValueError as e:
         print(f"Oops, {e.__class__} occurred")
         print()
-    except ZeroDivisionError as e:
+    except (TypeError, ZeroDivisionError) as e:
         print(f"Oops, {e.__class__} occurred")
         print()
     except Exception as e:
         print(f"Oops, {e.__class__} occurred")
         print()
 
-# print(f"The reciprocal of {entry} is {r}")
+print(f"The reciprocal of {entry} is {r}")
