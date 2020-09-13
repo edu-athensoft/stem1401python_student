@@ -9,7 +9,6 @@ string.capitalize()
 
 
 # Example 1: Capitalize a Sentence
-
 string = "python is AWesome."
 print('Old String: ', string)
 

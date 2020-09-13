@@ -32,7 +32,6 @@ result = text.endswith('easy', 7, 26)
 print(result)
 print()
 
-
 # Example 3
 text = "programming is easy"
 result = text.endswith(('programming', 'python'))
