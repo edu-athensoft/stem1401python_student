@@ -15,7 +15,7 @@ print("[info] open file in specified full path")
 print("[info] opening file3_open.txt ...")
 
 try:
-    f = open("D:\workspace\pycharm201803\stem1401python_student\py200510_python2\day18_py200715\\file3_open.txt")
+    f = open(r"D:\workspace\pycharm201803\stem1401python_student\py200510_python2\day18_py200715\file3_open.txt")
 
     print("[info] closing ...")
     f.close()

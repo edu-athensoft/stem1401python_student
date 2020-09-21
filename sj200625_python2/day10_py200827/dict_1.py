@@ -26,8 +26,8 @@ print(items, type(items))
 friends = {
     'Jack' :  'Jack Hill',
     'Joe'  :  'Joe Miller',
-    'Peter' :  'Peter Wong',
-    'Amy' : 'Amy White'
+    'Peter':  'Peter Wong',
+    'Amy' :   'Amy White'
 }
 print(friends)
 

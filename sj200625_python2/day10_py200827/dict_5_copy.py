@@ -16,5 +16,8 @@ print(my_dict2)
 print(my_dict is my_dict2)
 
 
+# print(f'{len(my_dict)}')
+
+
 
 
