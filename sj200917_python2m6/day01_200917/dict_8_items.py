@@ -28,6 +28,11 @@ for item in result:
     print(f'key={item[0]}, value={item[1]}')
 """
     
-#
+# iterable
 for item in days_of_the_week.items():
     print(item)
+
+print(type(days_of_the_week.items()))
+
+# convert to list
+print(list(days_of_the_week.items()))

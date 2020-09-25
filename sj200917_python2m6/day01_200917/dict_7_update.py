@@ -25,7 +25,7 @@ card1 = {1: 'SS1', 2:'S1', 3:'A1'}
 card2 = {4: 'SS2', 5:'SS3', 6:'S2'}
 
 # how to form a team card set?
-
+print(card1.update(card2))
 
 
 
