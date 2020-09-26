@@ -1,0 +1,6 @@
+Date	200912
+No.	Student Name	Total Score	Q1	Q2	Q3	Q4
+1	Kevin Teng	    97	        25	25	25	22
+2	Max Yang	    95	        25	25	25	20
+3	Steven Zhang	95	        25	25	25	20
+4	Yixuan Wang	    80	        25	15	25	15
