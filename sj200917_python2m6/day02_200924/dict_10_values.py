@@ -12,7 +12,8 @@ daysdict = {
     'THU': 'Thursday',
     'FRI': 'Friday',
     'SAT': 'Saturday',
-    'SUN': 'Sunday'
+    'SUN': 'Sunday',
+    'OTH': 'Sunday'
 }
 
 print(daysdict.values())

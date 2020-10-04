@@ -47,7 +47,7 @@ print("Hello, my friend 10!")
 
 # greeting()
 def greeting():
-    print("Hello, my friend 1!")
+    print("Hello, my friend 11!")
     print("Hello, my friend 2!")
     print("Hello, my friend 3!")
     print("Hello, my friend 4!")
@@ -75,11 +75,13 @@ print()
 # define a function
 # call a function
 
+numbers()
+numbers()
+
 def numbers():
     print(1)
     print(2)
     print(3)
     print(4)
 
-numbers()
-numbers()
+

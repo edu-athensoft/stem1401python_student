@@ -1,6 +1,10 @@
 """
 built-in function
 sorted()
+
+ascending order
+descending order
+
 """
 
 
