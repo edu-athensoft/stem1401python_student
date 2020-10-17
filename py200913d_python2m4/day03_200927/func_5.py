@@ -15,6 +15,7 @@ foo()
 
 # save returned value
 result = foo()
+
 print(result)
 print(result+1)
 print("result"+str(result))
