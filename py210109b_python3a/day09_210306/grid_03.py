@@ -1,0 +1,24 @@
+"""
+grid
+"""
+
+from tkinter import *
+
+
+root = Tk()
+root.geometry('640x480+200+200')
+root.config(bg='#ddddff')
+
+
+label1 = Label(root, text='Label 1',bg='yellow')
+label2 = Label(root, text='Label 2')
+label3 = Label(root, text='Label 3')
+
+# show on screen
+label1.grid(row=0, column=0)
+label2.grid(row=0, column=1)
+label3.grid(row=1, column=1)
+
+
+
+root.mainloop()

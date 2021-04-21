@@ -7,6 +7,7 @@ EOFError		    Raised when the input() function hits end-of-file condition.
 FloatingPointError	Raised when a floating point operation fails.
 GeneratorExit		Raised when a generator's close() method is called.
 ImportError		    Raised when the imported module is not found.
+ModuleNotFoundError 
 IndexError		    Raised when the index of a sequence is out of range.
 KeyError		    Raised when a key is not found in a dictionary
 KeyboardInterrupt	Raised when the user hits the interrupt key (Ctrl+C or Delete).

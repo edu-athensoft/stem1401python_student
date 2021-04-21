@@ -1,0 +1,184 @@
+"""
+Solution of Python II Final Exam - B
+
+"""
+
+1. Please briefly describe what 'Exception Handling' is. Why do we need 'Exception Handling'?
+Write all syntax forms you know about it.
+
+A:
+Exception handling is responding to exceptions when a computer program runs. An exception occurs when an unexpected
+event happens that requires special processing.
+
+Exception handling attempts to gracefully handle these situations so that a program (or worse, an entire system)
+does not crash.
+
+https://www.computerhope.com/jargon/e/exception-handling.htm
+------------------------------------------------------------
+
+2. What is a 'Built-in Exception'?  List at least 5 of them and describe each of them.
+
+A:
+Errors detected during execution are called exceptions, and the pre-defined and provided
+by Python that we can directly use are built-in exception.
+
+https://docs.python.org/3/tutorial/errors.html
+-------------------------------------------------------------
+
+3. What is a 'User-defined Exception'? How can we effectively and rationally organize them if there are many
+User-defined exceptions?
+
+A:
+A user-defined exception is a error class defined by programmers.
+We may organize exceptions in a module; in case that there are many modules in different topics, we may also use
+python package to group them.
+
+-------------------------------------------------------------
+
+4. Please briefly describe when an exception could occur. If programmers want to raise an error under a certain
+condition, how should they do it manually in the code?
+
+A:
+During execution.
+Sometimes programmer actively raise an error by raise or assert statements.
+
+https://docs.python.org/3/tutorial/errors.html
+-------------------------------------------------------------
+
+5. Please briefly describe what File Input and File Output is?
+
+A:
+a computer file that contains data that serve as input to a device or program.
+or reading info. from a file (source)
+
+a computer file that contains data that are the output of a device or program.
+or writing info. to a file (destination)
+
+https://www.seas.upenn.edu/~cis1xx/resources/java/fileIO/introToFileIO.html
+http://www2.hawaii.edu/~takebaya/cent110/file_in/file_in.html
+
+-------------------------------------------------------------
+
+6. How many python file modes do you know? Please list them with a brief description for each one and indicate which
+one(s) is(are) default mode(s)?
+
+A:
+Mode	Description
+'r'	Open a file for reading. (default)
+'w'	Open a file for writing. Creates a new file if it does not exist or truncates the file if it exists.
+'x'	Open a file for exclusive creation. If the file already exists, the operation fails.
+'a'	Open for appending at the end of the file without truncating it. Creates a new file if it does not exist.
+'t'	Open in text mode. (default)
+'b'	Open in binary mode.
+'+'	Open a file for updating (reading and writing)
+
+-------------------------------------------------------------
+
+7. Assuming that there is a text document with characters of Asian languages , how can we correctly open and read it?
+
+A:
+open(file_path, encoding="utf-8")
+
+-------------------------------------------------------------
+
+8. How can we read a file multiple times without reopening  it again and again?
+
+A:
+seek(0)
+
+-------------------------------------------------------------
+
+9. How to read a very large file in size? Why do you handle it in that way?
+
+A:
+read(size)
+readline() with while loop
+read in chunks
+
+The reason is read and load only a part of the source file may not assume large amount of memory at one time, so that
+the program can avoid to get stuck or crush because of out-of-memory or not enough memory.
+
+-------------------------------------------------------------
+
+10. When to use 'append' mode and when to use 'write' mode? For a 'Log' document which has been already created and has
+some data records in it, what file mode is suitable for adding new records to the document? Why?
+
+A:
+When it is required to add info at the tail of a file, 'append' mode is the answer.
+When it is not necessary to keep previous info already there in the file, 'write' mode would be the answer.
+
+For a 'Log' file, we would choose 'a' mode, because the history and previous records should be kept in safe.
+
+-------------------------------------------------------------
+
+11. Please compare write() with writelines()
+
+A:
+similar points
+Both of them can be used to write info. into a file.
+
+different points
+write() accepts a string as its parameter
+writelines accepts a list containing string items as its parameter
+
+-------------------------------------------------------------
+
+12. Please describe what a tree structure is like, try to write down all you know about it and give some examples in
+real life and/or in programming and modeling.
+
+A:
+A tree structure or tree diagram is a way of representing the hierarchical nature of a structure in a graphical form.
+
+A tree consists of nodes.
+A tree has a root node.
+A node may or may not have child node.
+A node does not have any child, it is called a leaf node.
+A node has one or more child nodes, it is called parent node.
+A node has only one parent node except the root node.
+The height of a tree is the number of node in the longest path of the tree.
+
+A tree structure can be used to represent a directory structure in file system.
+A tree structure can be used to represent a ledger in accounting field.
+A tree structure can be used to represent a table of contents of an article.
+
+https://en.wikipedia.org/wiki/Tree_structure
+-------------------------------------------------------------
+
+13. How many file and directory management operations do you remember? List them with a brief description for each.
+
+A:
+create a file
+rename a file
+copy a file
+delete a file
+move a file
+get size of file
+
+create a directory
+rename a directory
+remove a directory
+copy a directory
+move a directory
+
+list all contents in a directory
+get current working directory
+change current working directory
+
+-------------------------------------------------------------
+
+14. What is a relative path and an absolute path? What are the differences between them?
+
+A:
+A relative path refers to a location that is relative to a current directory. Relative paths make use of two special
+symbols, a dot (.) and a double-dot (..), which translate into the current directory and the parent directory.
+
+Double dots are used for moving up in the hierarchy.
+A single dot represents the current directory itself.
+
+https://desktop.arcgis.com/en/arcmap/10.3/tools/supplement/pathnames-explained-absolute-relative-unc-and-url.htm#:~:text=A%20relative%20path%20refers%20to,moving%20up%20in%20the%20hierarchy.
+
+
+An absolute path always contains the root element and the complete directory list required to locate the file.
+https://www.google.com/search?rlz=1C1CHBF_enCA841CA841&biw=984&bih=929&sxsrf=ALeKk01FY5CN6N_-NQvzEyFSFxJNBfww-w%3A1609258897943&ei=kVfrX5CZOeLB_QaYn5zwCQ&q=what+is+a+tree+structure&oq=what+is+a+tree+str&gs_lcp=CgZwc3ktYWIQAxgAMgUIABDJAzICCAAyAggAMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BQgAEJECOgQIABBDOgoIABCxAxCDARBDOg4ILhCxAxCDARDHARCjAjoICAAQsQMQgwE6CAguELEDEIMBOgQIIxAnOggIABDJAxCRAjoFCAAQsQNQgoZCWKedQmD7q0JoAHABeACAAXCIAf0LkgEEMTYuMpgBAKABAaoBB2d3cy13aXrAAQE&sclient=psy-ab
+
+

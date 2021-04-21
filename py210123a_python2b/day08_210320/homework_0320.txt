@@ -1,0 +1,8 @@
+[Homework]
+Date: 2021-03-20
+1. Write a Python program to generate a 3*2*3 3D array whose each element is *.
+2. Write a Python program to shuffle and print a specified list.
+Hint:
+You may search on Internet with the keywords like 'python list shuffle'
+3. Write a Python program to get the difference between the two lists.
+Due Date: by the end of next Friday

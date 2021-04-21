@@ -1,0 +1,31 @@
+[Homework] 2021-01-09
+Do a research on python GUI libraries and frameworks
+Briefly describe each Python GUI library.
+at least 6 popular libraries of Python GUI
+Due date : by the end of next Friday
+
+
+Cross-Browser Frameworks:
+Atlas toolkit for Python,
+target:All major Web Browsers
+version:0.12
+notes:For versatile GUIs written in HTML/CSS and Python (no JavaScript needed) - The lightweight and easy-to-use toolkit to begin with GUI programming.
+
+JustPy,
+target:All major Web Browsers
+version:0.1.5
+notes:An object oriented high-level Python Web Framework that requires no frontend programming.
+
+
+PyJamas,
+target:All major Web Browsers
+version:0.8
+notes:Comprehensive Widget toolkit, Python-to-Javascript compiler and AJAX library. Provides the "V" in MVC. Note PyjamasDesktop was merged into pyjamas.
+
+KivyIt is an open-source Python library that runs on Linux, Windows, OS X, Android, iOS, and Raspberry Pi and a great tool for making mobile applications. However, it does have a non-native looking UI and lacks community support since it is not very large.
+
+DearPyGuiDearPyGui is a simple but powerful cross-platform Python library on Windows, OS X and Linux. Other libraries are often require a lot of code and are overkill for the size of the projects, so this is where DearPyGui shines. It can handle large workloads while still being simple and open enough to allow users to customize to their liking.
+
+
+Tkinter Often referred to as the go-to GUI toolkit by a majority of Python developers,Tkinter was created to equip modern developers with a standard interface tothe Tk GUI toolkit with its Python bindings. In Tkinter’s world, most of thevisual elements that we’re familiar with are called widgets, and each of thesewidgets offers a different level of customizability.
+

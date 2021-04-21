@@ -1,0 +1,6 @@
+"""
+Spirit: Simplicity
+
+general-purpose
+
+"""

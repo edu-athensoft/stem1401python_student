@@ -1,0 +1,21 @@
+Summary
+
+What technology we have used or applied in the project?
+
+#
+The module
+The package
+The function
+The loop  (for, while,  infinite loop, stop loop)
+The decision making
+The Standard output, formatting string   print()
+The Standard input, input()
+The global scope, global variable, local scope and local variables
+
+
+# how to write multiple-module and package program/application
+
+# working process
+
+# unit test
+# integrate test

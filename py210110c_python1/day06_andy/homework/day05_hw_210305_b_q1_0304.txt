@@ -1,0 +1,20 @@
+q1
+anwser: a
+
+q2
+anwser: a,b,d
+
+q3
+anwser: b
+
+q4
+anwser: a
+
+q5
+anwser: a
+
+q6
+anwser: all above
+
+q7
+anwser: a

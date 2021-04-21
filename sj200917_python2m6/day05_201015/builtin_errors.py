@@ -28,7 +28,6 @@ SystemError		    Raised when interpreter detects internal error.
 SystemExit		    Raised by sys.exit() function
 TypeError		    Raised when a function or operation is applied to an object of incorrect type.
 ValueError		    Raised when a function gets an argument of correct type but improper value.
-
 """
 
 

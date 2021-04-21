@@ -1,0 +1,15 @@
+AssertionError
+IndentationError
+
+MOST IMPORTANT ERROR TYPE
+
+AttributeError
+ImportError
+ModuleNotFoundError
+IndexError
+KeyError
+NameError
+TypeError
+ValueError
+SyntaxError
+

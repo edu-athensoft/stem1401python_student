@@ -1,0 +1,15 @@
+"""
+score
+no citation (-20)
+no title (-5)
+"""
+
+  Static typing means that types are known and checked for correctness before running your program. This is
+often done by the language's compiler.Static typing does not imply that you have to declare all the
+variables first, before you use them; variables maybe be initialized anywhere, but developers have to do so
+before they use those variables anywhere.
+
+  Dynamic typed programming languages are those languages in which variables must necessarily be defined
+before they are used. This implies that dynamic typed languages do not require the explicit declaration of
+the variables before they’re used. Python is an example of a dynamic typed programming language, and so
+is PHP.
