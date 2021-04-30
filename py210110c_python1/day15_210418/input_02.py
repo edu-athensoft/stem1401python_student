@@ -15,3 +15,8 @@ input('Please enter something:')
 print("=== done ===")
 
 
+# what's the difference between the following statements?
+# input()
+# input('prompt message/text')
+
+

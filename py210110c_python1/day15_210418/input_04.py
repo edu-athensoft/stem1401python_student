@@ -28,3 +28,8 @@ print("Welcome back, ", username,"!")
 print("=== Done. ===")
 
 
+# what is the data type of your input content?
+print(type(username))
+# print(type(input))
+
+
