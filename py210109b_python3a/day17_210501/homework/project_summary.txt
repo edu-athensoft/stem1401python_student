@@ -1,0 +1,154 @@
+"""
+1. Understanding A real project/product
+
+The goals
+    provide calculating application to my friends or families in everyday life.
+    provide this feature to public
+
+The value of the project/product
+    share value of small utilities to public or community
+    simple calculation
+    cross-platform software/application
+    customize our calculator features
+
+creative and innovative work
+    motivation and core value of impact
+
+Bring it to live
+
+
+
+2. How to successfully complete a project?
+(idea)
+
+Max - workflow
+identifing function/features
+
+work out a plan
+   function list
+   required techniques/technologies
+
+write code
+layout after writing code
+
+check code
+revise and refine
+
+============================
+
+Steven - workflow
+
+Analyze the project
+result: functionalities
+
+write code
+layout after writing code
+
+check code
+debug, fix bugs
+
+============================
+
+Yi - workflow
+Plan
+   layout
+   feature
+
+Technical risk
+    trial, prototype
+
+Write code
+
+Check code
+    debug, fix bugs
+
+
+=============================
+common phases
+
+1. Requirement
+2. Analysis and Design
+3. Implementation
+4. Test
+5. Deployment
+
+1. Requirement
+Planning for features, layout/UI
+what to do?
+i.e.
+feature 01 - display the expression and the result in text
+
+description (incomplete, inaccurate) -> requirement
+business requirement  -> (customer, development team)
+system requirement -> (development team)
+
+activity of req analysis:
+1. elaborate/extract feature points from description
+2. list and write down with a number
+
+using statement to describe features
+i.e.
+r01. User can input an arithmetic expression.
+     constraints: +, -, *, /, *
+     supports: integer, floating number  (decimal)
+r02. System can perform calculating on the expression and return a result
+r03. System can display the expression and result
+
+r04. User can clear all input
+r05. User can correct the input by removing characters
+
+Prototype (Draft)
+rg01. landscape
+rg02. system default theme
+
+wireframe
+
+
+2. Design
+How to do?
+basic level
+what technologies to apply/employ?
+web / desktop (CLI, GUI) / embedded
+
+high level
+step 1. list all possible solution
+
+To make sure for each feature:
+how to input
+how to process
+how to output
+
+i.e.
+feature 01: User can input an arithmetic expression.
+how to input
+  user clicks buttons one by one
+  desc:
+     and each button generates a char
+
+how to process
+  desc:
+    then user get a sequence of char
+    combine them into a string of expression
+
+how to output
+  step 1. list all possible solution
+  opt 1. Label
+  opt 2. Entry
+  opt 3. Message
+  opt 4. Button
+
+  step 2. make decision
+  decision:  using Label
+
+
+
+2. Implementation  (writing code, preparing or processing required resources)
+3. Testing (find bugs, debug and remove bugs,  revise and refine)
+
+
+
+
+
+
+
+"""

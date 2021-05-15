@@ -1,15 +1,14 @@
 """
-Grid Layout
-color charts
 
-# program taken from
-http://stackoverflow.com/questions/4969543/colour-chart-for-tkinter-and-tix-using-python
+Grid challenge 2
+
+Color chart
+
 """
-
 
 from tkinter import *
 
-
+MAX_ROWS = 30
 
 COLORS = ['snow', 'ghost white', 'white smoke', 'gainsboro', 'floral white', 'old lace',
     'linen', 'antique white', 'papaya whip', 'blanched almond', 'bisque', 'peach puff',
@@ -88,24 +87,19 @@ COLORS = ['snow', 'ghost white', 'white smoke', 'gainsboro', 'floral white', 'ol
     'gray84', 'gray85', 'gray86', 'gray87', 'gray88', 'gray89', 'gray90', 'gray91', 'gray92',
     'gray93', 'gray94', 'gray95', 'gray97', 'gray98', 'gray99']
 
-MAX_ROWS = 32
-FONT_SIZE = 10 # (pixels)
-
 root = Tk()
-root.title("Python GUI - Color Chart Full")
+
+root.title("Grid Challenge 2 - Colour Chart")
 
 row = 0
-col = 0
+column = 0
+
 for color in COLORS:
-  e = Label(root, text=color, background=color,
-        # font=(None, -FONT_SIZE),
-        font=(None, 10),
-        padx=5, pady=5)
-  e.grid(row=row, column=col, sticky=E+W)
-  row += 1
-  if (row > MAX_ROWS):
-    row = 0
-    col += 1
+    one = Label(root, text=color, bg=color)
+    one.grid(row=row, column=column, sticky="ew")
+    row += 1
+    if row > MAX_ROWS:
+        row = 0
+        column += 1
 
 root.mainloop()
-
