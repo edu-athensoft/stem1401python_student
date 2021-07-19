@@ -12,7 +12,7 @@ root.config(bg="#ddddff")
 # print(root.keys())
 
 frameUpper = Frame(root, bg="lightgreen", height=60, width=205, pady=40)
-frameUpper.pack(fill=BOTH)
+frameUpper.pack(fill=BOTH,pady=20)
 
 btnRed = Button(frameUpper, text="Red", fg="red")
 btnRed.grid(row=0, column=0)

@@ -1,0 +1,125 @@
+"""
+Exam Result Report of
+Final Exam in Spring 2021
+
+Course:     STEM1402 PYTHON 2a
+Group No.:  PY210123A
+
+Issue date: 2021-07-08
+Issuer:     Athensoft Inc.
+
+Student:    Zilin Yin
+Date:       2021-07-12
+"""
+
+Part I. Questions (5'x10=50')
+1. 5'
+correct
+
+2. 4.5'
+It's better to rewrite as following:
+print(D(1.1)) -> print(D('1.1'))
+
+3. 0.5'
+from fractions import Fraction as F
+result = F(1,2) + F(2,3)
+print("1/3 + 1/3 = {}".format(result))
+
+4. 5'
+correct
+
+5. 5'
+correct
+
+6. 5'
+correct
+
+7. 5'
+correct
+
+8. 3.5'
+import random
+list_str = ['a','b','c','d','e','f']
+
+result = random.choice(list_str)
+print(result)
+
+[Comment]
+Although the choice method is correctly chose to use,
+the list of string was not properly created as expected.
+
+9. 2.5'
+The difference between list and tuple should have been clarified.
+
+10. 2.5'
+The difference between set and map should have been clarified.
+
+-------------------------------------
+Subtotal of Part I: 38.5' out of 50'
+
+
+Part II. Programming (15'+15'+20'=50')
+1. 15'
+random module is correctly used.
+built-in functions are correctly used.
+[Comment]
+Think about how to implement when built-in functions like max() and min() are not allowed to use
+
+2. 13'
+Set features are wisely applied.
+String methods are correctly used to concatenate them.
+[Comment]
+The result is expected to be in order as given in the description.
+
+3. 20'
+correct logic, however it can be simpler by using a map or the ascii code related functions
+This program can be written in various way.
+
+[Sample solution 1]
+# get a list of ascii number
+cipher_text = "84 104 105 115 32 105 115 32 97 32 112 121 116 104 111 110 32 115 111 117 114 99 101 32 99 111 100 101 46 "
+list1 = list(cipher_text.split())
+# print(list1)
+
+# using chr() to convert a ascii number to a char
+result = ''
+for num in list1:
+    result += chr(int(num))
+
+print(result)
+
+[Sample solution 2]
+ascii_map = {'84': "T",
+             '104': "h",
+             '105': "i",
+             '115': "s",
+             '32': " ",
+             '97': "a",
+             '112': "p",
+             '121': "y",
+             '116': "t",
+             '111': "o",
+             '110': "n",
+             '117': "u",
+             '114': "r",
+             '99': "c",
+             '101': "e",
+             '100': "d",
+             '46': "."}
+
+result_list = []
+
+for char in list1:
+    result_list.append(ascii_map[char])
+
+result = ''.join(result_list)
+print(result)
+
+-------------------------------------
+Subtotal of Part II: 48' out of 50'
+
+-------------------------------------
+Total : 86.5' (= 38.5'+ 48')
+
+<END>
+

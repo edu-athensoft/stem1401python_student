@@ -1,0 +1,9 @@
+"""
+bitwise operator
+
+&
+|
+^
+~
+
+"""
