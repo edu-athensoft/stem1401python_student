@@ -1,10 +1,10 @@
 """
+if-statement
+
 Check if a given number is positive
 
 if the number is greater than 0,
 then print out 'It's positive'
-
-if-statement
 
 keyword: if
 """
